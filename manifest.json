@@ -1,0 +1,19 @@
+{
+    "name": "YT Downloader",
+    "description": "A downloader for YouTube, .mp4 file format.",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "icons": "icon.jpg",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "options_page": "options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://youtube.com/*",
+        "storage"
+    ]
+}
