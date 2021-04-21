@@ -5,7 +5,7 @@
   "description": "A YouTube downloader video at .mp4 file format. For personal use.",
   "icons": {
     "128": "icon128.png",
-    "48": "icon48.png",
+    "48": "icon32.png",
     "16": "icon16.png"
   },
   "action": {
