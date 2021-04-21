@@ -1,19 +1,16 @@
 {
-    "name": "YT Downloader",
-    "description": "A downloader for YouTube, .mp4 file format.",
-    "version": "1.0.0",
-    "manifest_version": 2,
-    "icons": "icon.jpg",
-    "background": {
-        "scripts": ["background.js"]
-    },
-    "options_page": "options.html",
-    "browser_action": {
-        "default_popup": "popup.html"
-    },
-    "permissions": [
-        "tabs",
-        "https://youtube.com/*",
-        "storage"
-    ]
+  "manifest_version": 3,
+  "name": "YT downloader",
+  "version": "1.0.0",
+  "description": "A YouTube downloader video at .mp4 file format. For personal use.",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
 }
